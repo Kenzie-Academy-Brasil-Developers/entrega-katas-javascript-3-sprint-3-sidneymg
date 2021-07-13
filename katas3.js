@@ -415,7 +415,7 @@ function kataBonus2() {
 
     for (let i = 0; i<20; i++){
 
-        var blocks = document.createElement("div")
+        let blocks = document.createElement("div")
 
         blocks.className= "blocks"
 
@@ -444,7 +444,7 @@ const bodyResult= document.getElementById('body');
 
     for (let i = 0; i<20; i++){
 
-        var blocks = document.createElement("div")
+        let blocks = document.createElement("div")
 
         blocks.className= "blocks"
 
@@ -473,7 +473,7 @@ const bodyResult= document.getElementById('body');
 
     for (let i = 0; i<20; i++){
 
-        var blocks = document.createElement("div")
+        let blocks = document.createElement("div")
 
         blocks.className= "blocks"
 
@@ -508,7 +508,7 @@ const bodyResult= document.getElementById('body');
 
     for (let i = 0; i<20; i++){
 
-        var blocks = document.createElement("div")
+        let blocks = document.createElement("div")
 
         blocks.className= "blocks"
 
