@@ -1,12 +1,19 @@
 const sampleArray = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
 
 function showResults(n){
+
     const bodyResult = document.getElementById('body');
+
     const divResult = document.createElement("div");
+
     const newResult = document.createTextNode(n);
+
     divResult.appendChild(newResult);
+
     bodyResult.appendChild(divResult);
+
 }
+
 // implemente o código do kata 1 aqui
 function kata1() {
 
